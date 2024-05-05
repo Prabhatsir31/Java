@@ -1,0 +1,14 @@
+#  Class is a blue print of object.
+#  Object is a physical representation of class.
+
+How To Create an Object in java
+==========================
+class Myclass
+{
+}
+ 
+new:- new keyword creates Object and return its address.
+     for ex:-
+	ClassName ref= new ClassName()
+	            Lab ob=new Lab();
+	    MyClass ob=new MyClass();
