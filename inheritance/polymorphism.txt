@@ -1,0 +1,18 @@
+Method Overriding
+================
+In the case of Method Overriding We create a method a inside child 
+class which is also available in parent class with same signature.
+
+Compile Time Polymorphism
+=========================
+Parent p = new Parent()
+Child c = new Child()
+
+ > Method Calling Decided At Compile time
+ > Method Calling Based On Refrence type.
+
+Run Time Polymorphism()
+======================
+Parent p = new Child();
+ > Method Calling Decided At Run time
+ > Method Calling Based on object type.
