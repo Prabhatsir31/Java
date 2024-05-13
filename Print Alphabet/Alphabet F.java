@@ -11,7 +11,7 @@ class F {
           {
             if(i>=0 && i<2 || i>4 && i<7)
             {
-              printf("**");
+              System.out.print("**");
             }
             else
             {
