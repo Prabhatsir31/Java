@@ -28,7 +28,6 @@ class A {
             //last line of B
             //copy the j loop
 
-
             for(j=0;j<=2;j++)
             {
             //delete & copy the if else of k loop
