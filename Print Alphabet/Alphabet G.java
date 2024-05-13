@@ -7,19 +7,19 @@ class F {
           {
             System.out.print("*");
           }
-        for(k=0;k<=5;k++)
+        for(k=1;k<=5;k++)
           {
-            if(i>0 && i<2 || i>4 && i<7 && k>=3 && k<=5 || i>=6 && i<=9 && k==5)
+            if(i>=0 && i<2 || i>4 && i<7 && k>=3 && k<=5 || i>=6 && i<=9 && k==5 || i>9 && i<=11)
             {
-              System.out.print("**");
+              System.out.printf("**");
             }
             else
             {
               System.out.print("  "); //Two Spaces
             }
           }
+          System.out.println("\n");
       }
-    System.out.println();
   }
 }
 
