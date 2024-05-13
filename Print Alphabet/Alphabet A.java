@@ -1,50 +1,50 @@
-public class A {
+class A {
 public static void main(String[] args) {
 {
 int i, j, k, l;
 
-for(i=0;i (smaller then) =11;i++)//here is mistake change 1  as 11
+for(i=0;i<=11;i++)//here is mistake change 1  as 11
 {
  
-for(j=10;j (greater than) =i;j--)
+for(j=10;j>=i;j--)
 {
- System.out.println(" ");//add space between " "
+ System.out.printf(" ");//add space between " "
 }
 
-for(k=0;k (smaller than) =2;k++)
+for(k=0;k<=2;k++)
 {
-System.out.println("*"); 
+System.out.printf("*"); 
 }
 
-for(l=1;l (smaller than) =i;l++)
+for(l=1;l<=i;l++)
 {
  //this is the middle portion of character ' A '
  
-if(i (greater than) 4 && i (smaller than) 7)
+if(i>4 && i<7)
  {
-  System.out.println("**");
+  System.out.printf("**");
  }
  else
  {
-  System.out.println("  ");//add two space  
+  System.out.printf("  ");//add two space  
  }
  
 }
 
-for(k=0;k (smaller than) =2;k++)
+for(k=0;k<=2;k++)
 {
-System.out.println("*"); 
+System.out.printf("*"); 
 }
 
 //this loop is optional
 
-for(j=10;j (greater than) =i;j--)
+for(j=10;j>=i;j--)
 {
-System.out.println(" ");//add space here 
+System.out.printf(" ");//add space here 
 }
 
 
-System.out.println("\n");
+System.out.printf("\n");
 }
 }
 
