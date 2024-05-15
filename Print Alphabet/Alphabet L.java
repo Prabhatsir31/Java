@@ -1,4 +1,4 @@
-class K {
+class L {
   public static void main(String[] args) {
     int i,j,k;
     for(i=0;i<=11;i++)       
