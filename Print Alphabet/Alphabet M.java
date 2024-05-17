@@ -25,7 +25,7 @@ class M {
               }
             for(k=1;k<=i;k++)
               {
-                System.out.printf("*"); //line
+                System.out.printf(" "); //line
               }
             for(j=0;j<=2;j++)
               {
