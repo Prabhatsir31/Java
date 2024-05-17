@@ -1,4 +1,4 @@
-public class Main {
+class M {
   public static void main(String[] args) {
     int i,j,k,l,m;
     for(i=0;i<=11;i++)
