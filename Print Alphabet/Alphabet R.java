@@ -1,4 +1,4 @@
-class Q {
+class R {
   public static void main(String[] args) {
     int i,j,k,count=11;
     for(i=0;i<=11;i++)   
