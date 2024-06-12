@@ -3,27 +3,26 @@ class U {
     int i, j, k, l;
     for(i = 0; i <= 11; i++) 
     {
-      for(j = 0; j <= 2; j++) 
+      for(j = 1; j <= i; j++) 
+      {
+        System.out.print(" "); // one space
+      }
+      
+      for(l = 1; l <= 3; l++) 
       {
         System.out.print("*");
       }
       
-      for(k = 1; k <= 6; k++) 
+      for(k = 10; k >= i; k--) 
       {
-        if(i > 9 && i <= 11) 
-        {
-          System.out.print("**");
-        } 
-        else 
-        {
-          System.out.print("  "); //two spaces
-        }
+        System.out.print("  "); // two spaces
       }
       
-      for(l = 0; l <= 2; l++) 
+      for(l = 1; l <= 3; l++) 
       {
         System.out.print("*");
       }
+      
       System.out.print("\n");
     }
   }
