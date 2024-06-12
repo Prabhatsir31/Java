@@ -1,5 +1,5 @@
 // Java implementation to print the 
-// pattern of alphabets A to Z using * 
+
 class GFG 
 { 
 	
