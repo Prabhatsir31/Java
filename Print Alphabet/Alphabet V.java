@@ -1,4 +1,4 @@
-class U {
+class V {
   public static void main(String[] args) {
     int i, j, k, l;
     for(i = 0; i <= 11; i++) 
