@@ -2,7 +2,7 @@ class W
   {
     public static void main(String[] args)
     {
-      int i,j,k,l,m;
+      int i,j,k,l;
       for(i=0;i<=11;i++)
         {
           for(j=0;j<=2;j++)
