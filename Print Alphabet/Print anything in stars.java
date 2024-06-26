@@ -13,7 +13,7 @@ class anyname
     }
 
 
-    static coid gap() //create space
+    static void gap() //create space
     {
       for(k=0;k<=2;k++)
         {
@@ -58,21 +58,192 @@ class anyname
     }
 
   
+	static void mida() //middle part of A
+    {
+      for(l=1;l<=i;l++)
+        {
+          if(i>4 && i<7)
+          {
+          	System.out.printf("**");
+          }
+          else
+          {
+          	System.out.printf("  ");
+          }
+        }
+    }
 
 
 
+	static void midb() //creates B
+    {
+      for(l=1;l<=5;l++)
+        {
+        	//middle body of B
+          if(i>=0 && i<2 || i>4 && i<7 || i>9 && i<=11)
+          {
+          	System.out.printf("**");
+          }
+          else
+          {
+          	System.out.printf("  "); // two spaces
+          }
+        }
+        
+        for(k=0;k<=2;k++)
+        {
+        	// copy the if else of above loop
+            if(i>=0 && i<2 || i>4 && i<7 || i>9 && i<=11)
+            {
+            	System.out.printf(" ");// one space
+            }
+            else
+            {
+            	System.out.printf("*");
+            }
+        }
+    }
+
+	
+    static void midc() //middle part of C
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>=0 && i<2 || i>9 && i<=11)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
+
+	
+    static void midh() // middle part of H
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>4 && i<7)
+            {
+            	System.out.printf("**");
+            }
+            else 
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
 
 
 
+	static void mide() //middle part of E
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>=0 && i<2 || i>4 && i<7 || i>9 && i<=11)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
 
 
+	static void midd() //creates D
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>=0 && i<2 || i>9 && i<=11 || l==5)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  "); //two spaces
+            }
+        }
+        for(k=0;k<2;k++)
+        {
+        	if(i>=0 && i<2 || i>9 && i<=11)
+            {
+            	System.out.printf(" ");//one spaces
+            }
+            else
+            {
+            	System.out.printf("*");
+            }
+        }
+    }
 
-
-
-
-
-
-
-
+ 	
+    
+    static void midf() // middle part of F
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>=0 && i<2 || i>4 && i<7)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
+    
+    
+    static void midg() //middle part of G
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i>=0 && i<2 || i>4 && i<7 && l>=3 && l<=5 || i>=6 && i<=9 && l==5 || i>9 && i<=11)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
+        
+       
+    static void spi() //creates I
+    {
+    	for(l=0;l<=6;l++)
+        {
+        	if(i>=0 && i<2 || i>=2 && i<=9 && l==3 || i>9 && i<=11)
+            {
+            	System.out.printf("***");
+            }
+            else
+            {
+            	System.out.printf("   ");
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   }
