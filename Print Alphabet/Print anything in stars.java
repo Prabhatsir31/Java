@@ -230,6 +230,46 @@ class anyname
     }
     
     
+    static void spj() //creates J
+    {
+    	for(l=0;l<=6;l++)
+        {
+        	if(i>=0 && i<2 || i>=2 && i<=9 && l==3 || i>=7 && i<=9 && l==0 || i>9 && i<=11 && l<=3)
+            {
+            	System.out.printf("***");
+            }
+            else
+            {
+            	System.out.printf("   ");
+            }
+        } 
+    }
+    
+    
+    
+    static void midk() //middle of k
+    {
+    	for(l=0;l<=6;l++)
+        {
+        	if(l==count)
+            {
+            	System.out.printf("***");
+            }
+            else
+            {
+            	System.out.printf("   ");
+            }
+        }
+        
+        if(i<=5)
+        {
+        	count--;
+        }
+        else if(i<=11)
+        {
+        	count++;
+        }
+    }
     
     
     
@@ -246,4 +286,10 @@ class anyname
     
     
     
-  }
+    
+    
+	}        
+    
+    
+    
+   
