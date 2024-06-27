@@ -272,6 +272,69 @@ class anyname
     }
     
     
+    static void midl() // middle part of L
+    {
+    	for(l=1;l<=5;l++)
+        {
+        	if(i<9 && i<=11)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  ");
+            }
+        }
+    }
+    
+    
+    static void midv() //middle part of V
+    {
+    	for(j=10;j>=i;j--)
+        {
+        	System.out.printf("  ");
+        }
+    }
+    
+    
+    static void mido() //creates O
+    {
+    	for(k=0;k<=2;k++)
+        {
+        	if(i==0 && k<2 || i==1 && k<1 || i==11 && k<2 || i==10 && k<1)
+            {
+            	System.out.printf(" ");
+            }
+            else
+            {
+            	System.out.printf("*");
+            }
+        }
+        
+        for(l=1;l<=6;l++)
+        {
+        	if(i>=0 && i<2 || i>9 && i<=11)
+            {
+            	System.out.printf("**");
+            }
+            else
+            {
+            	System.out.printf("  "); //two spaces
+            }
+        }
+        
+        for(k=0;k<=2;k++)
+        {
+        	if(i==0 && k>0 || i==1 && k>1 || i==11 && k>0 || i==10 && k>1)
+            {
+            	System.out.printf(" ");
+            }
+            else
+            {
+            	System.out.printf("*"); 
+            }
+        }
+    }
     
     
     
@@ -281,14 +344,7 @@ class anyname
     
     
     
-    
-    
-    
-    
-    
-    
-    
-	}        
+}        
     
     
     
