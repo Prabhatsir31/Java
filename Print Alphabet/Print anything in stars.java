@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class anyname
+class anyname 
   {
     static int i,j,k,l,count=6,c=1,c1=10,c2=1,c3=10,c4=11,c5=0,c6=8,a=0;
 
