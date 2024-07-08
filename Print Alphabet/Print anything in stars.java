@@ -660,7 +660,412 @@ class anyname
 }    
 
 
+===============================================================OR====================================================
 
+
+
+import java.util.*;
+
+class AnyName {
+    static int i, j, k, l, count = 6, c = 1, c1 = 10, c2 = 1, c3 = 10, c4 = 11;
+
+    static void line() {
+        for (k = 0; k <= 2; k++) {
+            System.out.printf("*");
+        }
+    }
+
+    static void gap() {
+        for (k = 0; k <= 2; k++) {
+            System.out.printf(" ");
+        }
+    }
+
+    static void crosstr() {
+        for (j = 10; j >= i; j--) {
+            System.out.printf(" ");
+        }
+    }
+
+    static void crosstl() {
+        for (j = 10; j >= i; j--) {
+            System.out.printf(" ");
+        }
+    }
+
+    static void crossbr() {
+        for (l = 1; l <= i; l++) {
+            System.out.printf(" ");
+        }
+    }
+
+    static void crossbl() {
+        for (j = 1; j <= i; j++) {
+            System.out.printf(" ");
+        }
+    }
+
+    static void mida() {
+        for (l = 1; l <= i; l++) {
+            if (i > 4 && i < 7) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midb() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+
+        for (k = 0; k <= 2; k++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 || i > 9 && i <= 11) {
+                System.out.printf(" ");
+            } else {
+                System.out.printf("*");
+            }
+        }
+    }
+
+    static void midc() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midh() {
+        for (l = 1; l <= 5; l++) {
+            if (i > 4 && i < 7) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void mide() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midd() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 9 && i <= 11 || l == 5) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+        for (k = 0; k < 2; k++) {
+            if (i >= 0 && i < 2 || i > 9 && i <= 11) {
+                System.out.printf(" ");
+            } else {
+                System.out.printf("*");
+            }
+        }
+    }
+
+    static void midf() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midg() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 && l >= 3 && l <= 5 || i >= 6 && i <= 9 && l == 5 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void spi() {
+        for (l = 0; l <= 6; l++) {
+            if (i >= 0 && i < 2 || i >= 2 && i <= 9 && l == 3 || i > 9 && i <= 11) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+    }
+
+    static void spj() {
+        for (l = 0; l <= 6; l++) {
+            if (i >= 0 && i < 2 || i >= 2 && i <= 9 && l == 3 || i >= 7 && i <= 9 && l == 0 || i > 9 && i <= 11 && l <= 3) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+    }
+
+    static void midk() {
+        for (l = 0; l <= 6; l++) {
+            if (l == count) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+
+        if (i <= 5) {
+            count--;
+        } else if (i <= 11) {
+            count++;
+        }
+    }
+
+    static void midl() {
+        for (l = 1; l <= 5; l++) {
+            if (i < 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midv() {
+        for (j = 10; j >= i; j--) {
+            System.out.printf("  ");
+        }
+    }
+
+    static void mido() {
+        for (k = 0; k <= 2; k++) {
+            if (i == 0 && k < 2 || i == 1 && k < 1 || i == 11 && k < 2 || i == 10 && k < 1) {
+                System.out.printf(" ");
+            } else {
+                System.out.printf("*");
+            }
+        }
+
+        for (l = 1; l <= 6; l++) {
+            if (i >= 0 && i < 2 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+
+        for (k = 0; k <= 2; k++) {
+            if (i == 0 && k > 0 || i == 1 && k > 1 || i == 11 && k > 0 || i == 10 && k > 1) {
+                System.out.printf(" ");
+            } else {
+                System.out.printf("*");
+            }
+        }
+    }
+
+    static void midp() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 || i >= 2 && i <= 4 && l == 5) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void spq() {
+        for (l = 0; l <= 11; l++) {
+            if (i >= 0 && i < 2 && l < 9 || i >= 2 && i < 9 && l == 0 || l == 8 && i < 10 || i > 7 && i <= 9 && l < 9 || i >= 9 && i <= 11 && l == i) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+    }
+
+    static void midr() {
+        for (l = 1; l <= 5; l++) {
+            if (i >= 0 && i < 2 || i > 4 && i < 7 || i >= 2 && i <= 4 && l == 5 || i >= 7 && i <= 11 && l == c4) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+
+        if (i > 6) {
+            c4++;
+        } else {
+            c4 = 1;
+        }
+    }
+
+    static void sps() {
+        for (l = 1; l <= 8; l++) {
+            if (i == c1) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+
+        if (i < 6) {
+            c1--;
+        } else {
+            c1 = 10;
+        }
+    }
+
+    static void spt() {
+        for (l = 0; l <= 7; l++) {
+            if (i >= 0 && i < 2 || l == 3) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+    }
+
+    static void spu() {
+        for (l = 0; l <= 7; l++) {
+            if (i < 10 && l == 0 || i > 9 && l < 8) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+    }
+
+    static void spv() {
+        for (j = 10; j >= i; j--) {
+            System.out.printf("  ");
+        }
+    }
+
+    static void spw() {
+        for (j = 10; j >= i; j--) {
+            System.out.printf("  ");
+        }
+    }
+
+    static void spx() {
+        for (l = 0; l <= 7; l++) {
+            if (i <= 5 && l == c) {
+                System.out.printf("***");
+            } else if (i > 5 && l == c2) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+
+        if (i <= 5) {
+            c++;
+        } else {
+            c2--;
+        }
+    }
+
+    static void spy() {
+        for (l = 0; l <= 8; l++) {
+            if (i <= 5 && l == c3) {
+                System.out.printf("***");
+            } else if (i > 5 && l == c4) {
+                System.out.printf("***");
+            } else {
+                System.out.printf("   ");
+            }
+        }
+
+        if (i <= 5) {
+            c3--;
+        } else {
+            c4++;
+        }
+    }
+
+    static void spz() {
+        for (l = 0; l <= 8; l++) {
+            if (i >= 0 && i < 2 || i <= 5 && l == c1 || i > 9 && i <= 11) {
+                System.out.printf("**");
+            } else {
+                System.out.printf("  ");
+            }
+        }
+
+        if (i < 6) {
+            c1--;
+        } else {
+            c1 = 10;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number of patterns to print:");
+        
+        try {
+            int numPatterns = Integer.parseInt(sc.nextLine());
+            for (i = 0; i < numPatterns; i++) {
+                for (j = 0; j < numPatterns; j++) {
+                    line();
+                    gap();
+                    crosstr();
+                    crosstl();
+                    crossbr();
+                    crossbl();
+                    mida();
+                    midb();
+                    midc();
+                    midh();
+                    mide();
+                    midd();
+                    midf();
+                    midg();
+                    spi();
+                    spj();
+                    midk();
+                    midl();
+                    midv();
+                    mido();
+                    midp();
+                    spq();
+                    midr();
+                    sps();
+                    spt();
+                    spu();
+                    spv();
+                    spw();
+                    spx();
+                    spy();
+                    spz();
+                    System.out.println();
+                }
+            }
+        } catch (NoSuchElementException e) {
+            System.out.println("No line found. Please provide input.");
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input. Please enter a valid number.");
+        } finally {
+            sc.close();
+        }
+    }
+}
+	
 
 
 
